@@ -461,21 +461,22 @@
           </h3>
         </div>
       </div>
+      <div class="wrapper">
       <div class="bod">
 
 	        <div class="listbod">
-          <div class="imgbod">
-            <img src="<?php echo base_url(); ?>assets/FE/images/company/pn01.png">
+            <div class="imgbod">
+              <img src="<?php echo base_url(); ?>assets/FE/images/company/pn01.png">
+            </div>
+            <div class="descbod">
+              <h3 class="txt-dbod">
+  				นาย เจริญ สิริวัฒนภักดี
+              </h3>
+              <p class="txt-dbod">
+                ประธานกรรมการ / ประธานกรรมการบริหาร / ประธานเจ้าหน้าที่บริหาร
+              </p>
+            </div>
           </div>
-          <div class="descbod">
-            <h3 class="txt-dbod">
-				นาย เจริญ สิริวัฒนภักดี
-            </h3>
-            <p class="txt-dbod">
-              ประธานกรรมการ / ประธานกรรมการบริหาร / ประธานเจ้าหน้าที่บริหาร
-            </p>
-          </div>
-        </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -489,7 +490,7 @@
               รองประธานกรรมการ
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -503,7 +504,7 @@
               กรรมการบริษัท / รองประธานกรรมการบริหาร / กรรมการบริหารความเสี่ยง
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -517,7 +518,7 @@
              กรรมการบริษัท / รองประธานกรรมการบริหาร /กรรมการสรรหาและกำหนดค่าตอบแทน
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -531,7 +532,7 @@
           กรรมการบริษัท / รองประธานกรรมการบริหาร / กรรมการบริหารความเสี่ยง
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -545,7 +546,7 @@
              กรรมการบริษัท / กรรมการบริหาร
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -559,7 +560,7 @@
              กรรมการบริษัท / กรรมการบริหาร
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -573,7 +574,7 @@
              กรรมการบริษัท / กรรมการบริหาร / กรรมการบริหารความเสี่ยง
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -587,7 +588,7 @@
              กรรมการบริษัท / กรรมการตรวจสอบ / กรรมการอิสระ
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -601,7 +602,7 @@
              กรรมการบริษัท / กรรมการตรวจสอบ / กรรมการอิสระ
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -615,7 +616,7 @@
              กรรมการบริษัท / ประธานกรรมการตรวจสอบ / กรรมการอิสระ
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -629,7 +630,7 @@
              กรรมการบริษัท / กรรมการตรวจสอบ / กรรมการอิสระ / กรรมการสรรหาและกำหนดค่าตอบแทน
             </p>
           </div>
-        </div>
+          </div>
 
 	        <div class="listbod">
           <div class="imgbod">
@@ -640,12 +641,12 @@
          นางสาวพจนีย์  ธนวรานิช
             </h3>
             <p class="txt-dbod">
-        กรรมการบริษัท / กรรมการอิสระ
+          กรรมการบริษัท / กรรมการอิสระ
             </p>
           </div>
-        </div>
+          </div>
 
-	<div class="listbod">
+	       <div class="listbod">
           <div class="imgbod">
             <img src="<?php echo base_url(); ?>assets/FE/images/company/pn14.png">
           </div>
@@ -654,28 +655,30 @@
          นายอัศวิน เตชะเจริญวิกุล
             </h3>
             <p class="txt-dbod">
-   กรรมการบริษัท / กรรมการบริหาร / กรรมการบริหารความเสี่ยง
+          กรรมการบริษัท / กรรมการบริหาร / กรรมการบริหารความเสี่ยง
             </p>
           </div>
-        </div>
+          </div>
 
-	<div class="listbod">
+	        <div class="listbod">
           <div class="imgbod">
             <img src="<?php echo base_url(); ?>assets/FE/images/company/pn15.png">
           </div>
           <div class="descbod">
             <h3 class="txt-dbod">
- นางฐาปณี เตชะเจริญวิกุล
+            นางฐาปณี เตชะเจริญวิกุล
             </h3>
             <p class="txt-dbod">
- กรรมการบริษัท / กรรมการบริหาร / เลขานุการคณะกรรมการสรรหาและกำหนดค่าตอบแทน
-/ กรรมการรองผู้จัดการใหญ่อาวุโส
+            กรรมการบริษัท / กรรมการบริหาร / เลขานุการคณะกรรมการสรรหาและกำหนดค่าตอบแทน
+            / กรรมการรองผู้จัดการใหญ่อาวุโส
             </p>
           </div>
-        </div>
+          </div>
 
       </div>
+      </div>
     </div>
+
     <div class="mngb">
       <div class="wrapper">
         <div class="topicmngb">
@@ -684,6 +687,7 @@
           </h3>
         </div>
       </div>
+      <div class="wrapper">
       <div class="blogmngb">
 
           <div class="listmngb">
@@ -710,7 +714,7 @@
               </h3>
               <p class="txt-dmngb">
              กรรมการบริษัท / กรรมการบริหาร / เลขานุการคณะกรรมการสรรหาและกำหนดค่าตอบแทน
-/ กรรมการรองผู้จัดการใหญ่อาวุโส
+            / กรรมการรองผู้จัดการใหญ่อาวุโส
               </p>
             </div>
           </div>
@@ -799,6 +803,7 @@
             </div>
           </div>
 
+      </div>
       </div>
     </div>
   </section>
