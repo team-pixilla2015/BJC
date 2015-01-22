@@ -290,3 +290,10 @@
 		}
 	}
 }
+
+.btn_pdf {
+	height: 5em;
+	@include background-image(linear-gradient(#fff, lighten(#aaa, 10%)));
+	border: 1px solid lighten(#aaa, 20%);
+	border-radius: 1em;
+}

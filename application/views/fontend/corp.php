@@ -146,7 +146,10 @@
 						<div class="row">
 							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 								<div class="corp-btn">
-									<img src="<?php echo base_url(); ?>assets/FE/images/corp/btn-audit.png" height="61" width="250">
+									<div class="btn_pdf">
+										arm
+									</div>
+									<!-- <img src="<?php echo base_url(); ?>assets/FE/images/corp/btn-audit.png" height="61" width="250"> -->
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
