@@ -1,0 +1,56 @@
+#bartop {
+	display: block !important;
+}
+.navbar-default {
+    background: #fff;
+    border: none;
+    margin-bottom: 0;
+}
+.headmenu {
+    background: #fff;
+}
+.navbar-right {
+    margin-right: 0;
+}
+.navbar-toggle {
+    top: 1.3em;
+    border: none;
+    .icon-bar {
+        background: #000 !important;
+    }
+}
+.nav li {
+    .listmenu {
+        color: $header-bg !important;
+        font-size: 1.35em;
+        text-transform: uppercase;
+        font-family: "RobotoB";
+        margin: 1em .2em;
+        line-height: 1em;
+        position: relative;
+        &:hover {
+            color: lighten($header-bg, 10%) !important;
+        }
+        @media #{$sm}{
+			 &::before {
+	            position: absolute;
+	            top: .8em;
+	            right: -.2em;
+	            width: .1em;
+	            height: 1.2em;
+	            background: #ccc;
+	            content: "";
+	            z-index: 100;
+	            display: block;
+	        }
+        }
+
+    }
+    &:last-child {
+        .listmenu {
+            &::before {
+                background: none;
+            }
+        }
+    }
+}

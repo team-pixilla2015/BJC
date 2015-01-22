@@ -1,0 +1,54 @@
+.business {
+	margin: 0 .5em;
+	font-family: "Roboto";
+}
+
+.business h1 {
+	text-transform: uppercase;
+	margin: .6em 0 .3em 0;
+	font-weight: bold;
+}
+
+.business a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.business a:hover {
+	color: #1D1D1D;
+}
+
+.business h2 {
+	font-weight: bold;
+	margin: 1em 0 .5em 0;
+	font-size: 2em;
+	text-transform: capitalize;
+}
+
+.company_info {
+	color: #808080;
+}
+
+.company_info p,ol,ul {
+	line-height: 2em;
+	font-size: 1.1em;
+}
+
+.company_info p strong {
+	font-size: 1.1em;
+}
+
+.company_info strong {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+.contact_info {
+	color: #808080;
+}
+
+.contact_info p {
+	line-height: 2em;
+	font-size: 1.1em;
+	padding-bottom: 2em;
+}

@@ -1,0 +1,169 @@
+h2 {
+    color: $header-color;
+    margin-top: .5em;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+.sub-menu-row {
+    background-color: $white;
+}
+.new-event-sub-menu {
+    padding: 1em 0;
+    .sub-menu {
+        padding: 1em 0 3em 0;
+        text-align: center;
+        ul {
+            li{
+                float: left;
+                padding: 0;
+                width: 100%;
+                margin: .5em 0;
+                // width: 14.285%;
+                @include line(lighten($header-color, 50%), 1px);
+                 a {
+                    color: $header-color;
+                    font-family: "Roboto";
+                    font-size: 1.5em;
+                    &:hover {
+                        color: lighten($active-color, 10%);
+                    }
+                }
+                a.active {
+                    padding-bottom: .1em;
+                    color: lighten($active-color, 15%);
+                    @include line(lighten($active-color, 15%), 4px);
+                }
+
+                @media #{$sm}{
+                    padding: 0 3.1%;
+                    width: auto;                }
+            }
+        }
+    }
+}
+.line {
+    //@include line(lighten($header-color, 50%),1px);
+}
+.contain-row {
+    margin-top: .5em;
+    .col-xs-12 {
+        margin-top: 1em;
+    }
+    .head {
+        .head-text {
+            text-align: left;
+            padding: 0;
+            h3 {
+                padding-bottom: .5em;
+                font-family: "Roboto";
+                color: lighten($header-color, 30%);
+            }
+        }
+        .more-text {
+            text-align: right;
+            a {
+                color: $header-color;
+                &:hover {
+                    color: lighten($active-color, 10%);
+                }
+            }
+        }
+    }
+    .detail {
+        background-color: $white;
+        padding: .7em .5em;
+        font-size: 1.2em;
+        .head {
+            font-size: 1.4em;
+            color: $header-color;
+            line-height: 1.2em;
+        }
+        .small {
+            color: lighten($header-color, 50%);
+            font-family: "Roboto";
+            padding: .5em 0;
+        }
+        .text {
+            font-family: "Roboto";
+            color: $header-color;
+        }
+    }
+}
+.csr-img {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.csr-text {
+    .head {
+        font-size: 1.8em;
+        color: $header-color;
+        line-height: 1.2em;
+    }
+    .small {
+        color: lighten($header-color, 50%);
+        font-family: "Roboto";
+        padding: .5em 0;
+        font-size: 1.2em;
+    }
+    .text {
+        font-family: "Roboto";
+        color: $header-color;
+        font-size: 1.3em;
+        line-height: 1.7em;
+    }
+}
+.left-slider {
+    .up {
+        right: 10px;
+        width: 32px;
+        height: 32px;
+        margin-top: 5em;
+        margin-bottom: 1em;
+        background: url(../images/controls.png) no-repeat -43px -32px;
+        transform: rotate(-90deg);
+        &:hover {
+            background-position: -43px 0;
+            transform: rotate(-90deg);
+        }
+        a {
+            color: transparent;
+        }
+    }
+    .down {
+        right: 10px;
+        width: 32px;
+        height: 32px;
+        margin-top: 1em;
+        background: url(../images/controls.png) no-repeat -43px -32px;
+        transform: rotate(90deg);
+        //text-indent: -9999px;
+        &:hover {
+            background-position: -43px 0;
+            transform: rotate(90deg);
+        }
+        a {
+            color: transparent;
+        }
+    }
+}
+.bxslider {
+    .detail {
+        background-color: $white;
+        padding: .7em .5em;
+        font-size: 1.2em;
+        .head {
+            font-size: 1.4em;
+            color: $header-color;
+            line-height: 1.2em;
+        }
+        .small {
+            color: lighten($header-color, 50%);
+            font-family: "Roboto";
+            padding: .5em 0;
+        }
+        .text {
+            font-family: "Roboto";
+            color: $header-color;
+        }
+    }
+}

@@ -1,0 +1,447 @@
+.row.career {
+    background-color: $bg-color;
+    .col-xs-12,.col-sm-12 {
+        padding: 0;
+    }
+}
+small {
+    font-size: 1.2em;
+    color: $header-color;
+}
+.uncareer {
+    font-family: "Roboto";
+    background-color: #f2f1f1;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+.btn-group.bootstrap-select {
+    button.selectpicker {
+        background-color: #fff;
+        color: rgba(#000, 0.5);
+        border: 1px solid #ccc;
+        &:hover {
+            background-color: #fff;
+        }
+        &:active {
+            background-color: #fff;
+        }
+    }
+}
+.career-menu {
+    .menu-mobile {
+        text-align: center;
+        .career-head-menu {
+            background-color: #222;
+            border-bottom: 1px solid #000;
+            font-size: 2em;
+            padding: .5em;
+            font-family: "Roboto";
+            a {
+                color: lighten($header-color, 30%);
+                cursor: pointer;
+                &:hover {
+                    color: lighten($header-color, 60%);
+                }
+            }
+        }
+        .career-sub-menu {
+            display: none;
+            ul {
+                li {
+                    a {
+                        font-family: "Roboto";
+                        font-size: 1.5em;
+                        line-height: 2em;
+                        color: $left-menu-color;
+                        &:hover {
+                            color: $hover-color;
+                        }
+                    }
+                    a.active {
+                        color: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+    .menu-destop {
+        .career-sub-menu {
+            padding: 3em;
+            ul {
+                li {
+                    a {
+                        font-size: 1.8em;
+                        line-height: 2.5em;
+                        color: $left-menu-color;
+                        &:hover {
+                            color: $hover-color;
+                        }
+                    }
+                    a.active {
+                        color: $hover-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.career-main {
+    padding: 3em 1em;
+    text-align: center;
+    font-family: "Roboto";
+    color: $header-color;
+    background-color: lighten($bg-color, 20%);
+    h1 {
+        padding-bottom: 1em;
+        font-family: "RobotoB";
+    }
+}
+.new-slide {
+    padding: 0 2em;
+    .detail {
+        text-align: left;
+        padding-left: 1.5em;
+        h3 {
+            font-family: "RobotoB";
+        }
+        .text {
+            padding-top: 1.5em;
+            font-size: 1.3em;
+            font-family: "Roboto";
+            line-height: 25px;
+        }
+    }
+    .item {
+        height: auto;
+    }
+    .owl-theme {
+        .owl-controls {
+            text-align: center;
+            margin-top: 30px;
+            position: static;
+            transform: translatex(0);
+            .owl-page span {
+                background:#888888;
+                width: 17px;
+                height: 17px;
+                border: 4px solid lighten($bg-color, 20%);
+            }
+            .owl-page.active span {
+                background-color: #fff;
+                border: 4px solid #35a240;
+            }
+        }
+    }
+}
+.why-bjc {
+    background-color: #f2f1f1;
+    text-align: center;
+    font-family: "Roboto";
+    h1 {
+        font-family: "RobotoB";
+        color: $header-color;
+        padding: 1em 0;
+    }
+    .text {
+        padding: 0 3em;
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+    .img {
+        padding-bottom: 2em;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .head-text {
+        color: $left-menu-color;
+        font-size: 2em;
+        padding-bottom: .5em;
+        font-family: "RobotoB";
+        text-transform: uppercase;
+    }
+    .sub-text {
+        font-size: 1.6em;
+        line-height: 1.8em;
+        padding: 0 2em 1em 2em;
+    }
+    .list-text {
+         text-align: left;
+        div {
+            background-color: #f2f1f1;
+            ul {
+                padding: 0 3em 5em e7m;
+                list-style-type: disc;
+                li {
+                    font-family: sans-serif;
+                    font-size: 1.3em;
+                    padding: .7em 0;
+                }
+            }
+        }
+       /*  ul {
+           width: 100%;
+           padding: 0 3em 5em 8em;
+           list-style-type: disc;
+           margin-bottom: 0;
+           li {
+               display: inline-block;
+               width: 40%;
+               text-align: left;
+               font-size: 1.3em;
+               padding: .7em 0;
+               &:before {
+                   margin-right: .5em;
+                   width: 100px;
+                   height: 20px;
+                   background: $left-menu-color;
+               }
+           }
+
+       } */
+    }
+}
+.step {
+    overflow: hidden;
+    padding: 3em;
+    background-color: #f2f1f1;
+    .step-start {
+        background-color: $left-menu-color;
+        padding: 2em;
+        &:after {
+            content: "";
+            border-width: .8em;
+            border-style: solid;
+            border-color: $left-menu-color transparent transparent transparent;
+            position: absolute;
+            left: 49%;
+            top: 6.9em;
+        }
+    }
+    .head-step {
+        text-transform: uppercase;
+        background-color: $left-menu-color;
+        color: $hover-color;
+        padding: .8em;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: .2em;
+        cursor: pointer;
+        &:hover {
+            background-color: transparent;
+            color: $left-menu-color;
+        }
+    }
+    /* .head-step.active {
+        background-color: transparent;
+        color: $left-menu-color;
+        border-bottom: 2px solid $bg-color;
+        margin-bottom: 0;
+        padding: .9em .8em 0 .8em;
+        &:after {
+            content: "";
+            border-width: .4em;
+            border-style: solid;
+            border-color: $bg-color transparent transparent transparent;
+            position: relative;
+            left: 49.3%;
+            top: 1.6em;
+        }
+    } */
+    .head-step.active {
+        background-color: transparent;
+        color: $left-menu-color;
+    }
+    .body-step {
+        display: none;
+        padding-bottom: 2em;
+        .text-head {
+            color: $header-color;
+            padding: 1em 0;
+            //font-family: "Roboto Bold";
+        }
+        .text-body {
+            .radio-inline, .checkbox-inline {
+                color: $header-color;
+                font-size: 1.5em;
+            }
+            .add-record {
+                color: $left-menu-color;
+                font-size: 1.5em;
+            }
+        }
+        button {
+            background-color: lighten($left-menu-color, 20%);
+            border: none;
+            color: $hover-color;
+            padding: .5em 2em;
+            font-size: 1.5em;
+            &:hover {
+                background-color: $left-menu-color;
+            }
+        }
+    }
+   /*  #step-1, #step-2, #step-3, #step-4, #step-5 {
+       display: none;
+   } */
+}
+.padding-rl {
+    padding: 0 1em;
+}
+hr {
+    border: 1px solid lighten($header-color, 60%);
+}
+.job-text-head {
+    color: $header-color;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 3em 0;
+    h1 {
+        font-family: "RobotoB";
+        font-size: 4.5em;
+        text-transform: uppercase;
+    }
+    .top-line {
+        border: 2px solid $left-menu-color;
+        margin: 1em 40%;
+    }
+}
+.filter-menu {
+    padding: 2em;
+    .form-group {
+        margin: 0;
+        padding: 1em 0;
+    }
+    .input-group-addon {
+        color: #000;
+        background-color: #fff;
+    }
+    button {
+        background-color: lighten($left-menu-color, 20%);
+        border: none;
+        color: $hover-color;
+        padding: .5em 2em;
+        font-size: 1.5em;
+        line-height: 1.33;
+        &:hover {
+            background-color: $left-menu-color;
+        }
+    }
+}
+.job-sub-text {
+    padding: 2em;
+    color: $left-menu-color;
+    text-align: center;
+}
+.job-data {
+    padding: 2em;
+    font-size: 1.3em;
+    font-family: "Roboto";
+    .table {
+        tbody {
+            tr {
+                td {
+                    color: lighten($header-color, 20%);
+                    a {
+                        color: lighten($header-color, 20%);
+                    }
+                }
+                &:hover {
+                    background-color: rgba($hover-color, 0.5);
+                    cursor: pointer;
+                }
+                &:last-child {
+                    &:hover {
+                        background: transparent;
+                        cursor:default;
+                    }
+                }
+            }
+        }
+
+        .paginat-item {
+            width: 15px;
+            height: 15px;
+            background: #888;
+            float: left;
+            margin: 0 .5em;
+            border: 4px solid #f2f1f1;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover {
+                border: 4px solid $left-menu-color;
+            }
+            &:last-child {
+                &:after {
+                    clear: both;
+                }
+            }
+        }
+        .active {
+            background: #fff;
+            border: 4px solid lighten($left-menu-color, 15%);
+        }
+
+        .show_all {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .sub {
+        h4 {
+            color: $header-color;
+            font-family: "Roboto";
+            font-size: 1.3em;
+            border-bottom: 1px solid $header-color;
+            padding: .5em;
+        }
+        .data-text {
+            padding-top: 1em;
+            ul {
+                color: $header-color;
+                font-weight: 200;
+                line-height: 1.5em;
+                font-size: 1.1em;
+                padding: 1em;
+                list-style: disc;
+            }
+        }
+    }
+    .data-text-sub {
+        color: $header-color;
+        text-align: center;
+        padding: 1.5em 0;
+        font-weight: 200;
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+    .text-address {
+        .address {
+            padding-bottom: 3em;
+        }
+        h4 {
+            padding: 1em 0;
+            color: $left-menu-color;
+            font-family: "Roboto";
+        }
+        div {
+            color: $header-color;
+            line-height: 1.5em;
+            font-size: 1.1em;
+        }
+    }
+    button {
+        background-color: lighten($left-menu-color, 20%);
+        border: none;
+        color: $hover-color;
+        padding: .5em 1.5em;
+        font-size: 1.5em;
+        //line-height: 1.33;
+        &:hover {
+            background-color: $left-menu-color;
+        }
+    }
+}

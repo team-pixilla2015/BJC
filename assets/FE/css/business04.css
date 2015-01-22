@@ -1,0 +1,16 @@
+.bu4_thumbnail_blog{
+	margin: auto ;
+	width: 685px;
+}
+.bu4_thumbnail{
+	padding: 10px !important;
+	width: 100%;
+	border-radius: 0px;
+}
+.bu4_thumbnail img{
+	width: 290px;
+}
+.bu4_thumbnail .caption p{
+	font-family: 'RobotoM';
+	font-size: 12pt !important;
+}

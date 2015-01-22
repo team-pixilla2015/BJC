@@ -1,0 +1,40 @@
+.business {
+    margin: 30px;
+}
+.business h1 {
+    font-family: 'Conv_THSarabunNew';
+    font-size: 40px;
+    color: #333333;
+}
+.business h2 {
+    font-family: 'Conv_THSarabunNew';
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.business .company_info p, .business .company_info strong, .business .company_info span, .business .company_info li {
+    font-family: 'Conv_THSarabunNew';
+    font-size: 22px;
+    line-height: 30px;
+}
+.business .company_info {
+    margin-top: 30px;
+}
+.business .contact_info p, .business .contact_info strong, .business .contact_info span {
+    font-family: 'Conv_THSarabunNew';
+    font-size: 22px;
+    line-height: 30px;
+}
+.business ol {
+    margin-left: 40px;
+}
+.business ol li {
+    list-style: decimal
+}
+.business a {
+    color: #309a35;
+}
+.business .company_info {
+    margin-top: 0px;
+}

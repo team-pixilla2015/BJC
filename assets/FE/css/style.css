@@ -1,0 +1,570 @@
+@charset "utf-8";
+a {
+    cursor: pointer;
+}
+a:hover {
+    cursor: pointer;
+}
+/* CSS Document */
+
+h1, h2, h3, h4, p {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #f0f0f0;
+}
+header {
+    background: #264433;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.fullwidth {
+    padding: 0;
+}
+.lang {
+    float: right;
+    padding: 0 20px;
+    background: url(../images/line01.jpg) repeat-y left top;
+}
+.btn-lang {
+    line-height: 35px;
+    margin: 0 5px;
+}
+.hamburger {
+    display: none;
+    height: auto;
+}
+.btn-hamburger {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    background: #333;
+    z-index: 100;
+}
+.btn-hamburger:before {
+    width: 20px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    top: -6px;
+    right: 0;
+    z-index: 100;
+    display: block;
+    background: #333;
+}
+.btn-hamburger:after {
+    width: 20px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+    z-index: 100;
+    display: block;
+    background: #333;
+}
+.top-smenu {
+    float: right;
+    padding: 0 10px;
+    position: relative;
+}
+.top-smenu a {
+    float: right;
+    margin: 0 10px;
+    line-height: 35px
+}
+.top-smenu span {
+    float: right;
+    display: block;
+    width: 2px;
+    height: 15px;
+    background: url(../images/line01.jpg) repeat-y;
+    display: block;
+    margin: 10px;
+}
+#topmenu {
+    height: 80px;
+    width: 100%;
+    background: #fff
+}
+.logo a {
+    line-height: 80px;
+    float: left;
+    margin: 0 10px;
+}
+.logo a:first-child {
+    margin-left: 0;
+}
+.menu {
+    float: right;
+    margin-left: 0px;
+}
+.menu a {
+    float: left;
+    margin: 25px 10px;
+    line-height: 30px;
+    position: relative;
+}
+.menu a:before {
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    width: 2px;
+    height: 20px;
+    background: #cccccc;
+    content: "";
+    z-index: 100;
+    display: block;
+}
+.menu a:last-child:before {
+    display: none;
+}
+section {
+    padding: 30px 0;
+}
+#selectBU {
+    float: left;
+}
+.topicSection {
+    text-align: center;
+    margin: 20px 0;
+}
+section#homebanner {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.typebu {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.icontype, .topictype, .desctype {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
+.icontype {
+    margin-bottom: 10px;
+}
+section#timeline {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: #e0e0e0;
+}
+section#typeBU {
+    float: left;
+    width: 100%;
+    height: 700px;
+    background: #f1f1f1;
+    padding: 20px;
+    position: relative;
+}
+.item {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.imgtypeBU {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    z-index: 10;
+}
+.texttypeBU {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 11;
+    width: 600px;
+    text-align: left;
+}
+.wrapper-type {
+    width: 1020px;
+    margin: auto;
+    height: 100%;
+}
+.topictypeBU, .desctypeBU, .buttontypeBU {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+}
+.desctypeBU {
+    width: 500px;
+}
+.buttontypeBU {
+    margin-top: 20px;
+}
+.btntypeBU {
+    padding: 10px 30px;
+    background: #37be41;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btntypeBU:hover {
+    background: #27872e;
+}
+.owl-theme .owl-controls {
+    margin-top: -30px;
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+
+section#investor {
+    float: left;
+    width: 100%;
+    height: 780px;
+    background: #edf2ed;
+    padding: 0;
+}
+
+.pt-investor {
+    width: 100%;
+    height: 450px;
+    background: url(../images/bannerinvestor.jpg) no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+.blogtopicinvestor {
+    width: 500px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    /* IE 9 */
+
+    -webkit-transform: translateY(-50%);
+    /* Chrome, Safari, Opera */
+
+    transform: translateY(-50%);
+}
+.topicinvestor {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.buttoninvestor {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+.btninvestor {
+    display: block;
+    cursor: pointer;
+    float: left;
+    border-radius: 3px;
+    overflow: hidden;
+}
+#whatnews {
+    width: 100%;
+    float: left;
+    height: 330px;
+    padding: 10px 0;
+}
+.listnews {
+    width: 100%;
+    float: left;
+}
+.imgeachnews {
+    width: 100%;
+    float: left;
+    height: 120px;
+    overflow: hidden;
+}
+.imgeachnews img {
+    width: 100%;
+}
+.texteachnews {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.linkeachnews {
+    float: left;
+    width: 100%;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+}
+#hnews {
+    margin: 10px auto
+}
+footer {
+    background: #313133;
+    float: left;
+    width: 100%;
+}
+#menufooter {
+    height: 400px;
+    padding: 15px 0;
+}
+#menufooter a {} .topicfooter {
+    display: none;
+}
+.btn-slide {
+    cursor: pointer;
+}
+.footmenu ul {
+    display: block;
+}
+#copyright {
+    height: 80px;
+    width: 100%;
+    background: #27282a;
+}
+.policy {
+    float: left;
+    margin: 20px 0;
+}
+.policy a {
+    float: left;
+    margin: 0 10px;
+    line-height: 40px;
+}
+.policy a:first-child {
+    margin-left: 0;
+}
+.copyright {
+    float: right;
+    margin: 20px 0;
+}
+.copyright p {
+    float: left;
+    line-height: 40px;
+}
+.row {
+    margin: auto;
+}
+.clr {
+    clear: both;
+    float: none;
+}
+@media screen and (max-width: 1200px) {
+    .menu {
+        float: right;
+        margin-left: 0px;
+    }
+    #menufooter {
+        height: 450px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .menu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    #bartop, .policy {
+        display: none;
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+    #menufooter {
+        text-align: center;
+        height: auto;
+    }
+    #menufooter ul li:first-child {
+        display: none;
+    }
+    .topicfooter {
+        display: none;
+    }
+}
+@media screen and (max-width: 960px) {
+    body {
+        width: 100%;
+        overflow-x: hidden
+    }
+    .container {
+        padding: 0;
+    }
+    #bartop {
+        display: none;
+    }
+    .topicfooter {
+        width: 100%;
+        padding: 10px 0;
+        display: block;
+        background: #313133;
+        margin: 0 1px
+    }
+    #menufooter {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    #menufooter ul {
+        display: none;
+        margin: 0;
+    }
+    #menufooter .row>div {
+        background: #313133;
+    }
+    .wrapper-type {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+    .owl-theme .owl-controls {
+        position: absolute;
+        text-align: left;
+        bottom: 0;
+        left: 50%;
+        z-index: 1000;
+        text-transform: center;
+        -ms-transform: translateX(-50%);
+        /* IE 9 */
+
+        -webkit-transform: translateX(-50%);
+        /* Chrome, Safari, Opera */
+
+        transform: translateX(-50%);
+    }
+    section#investor, #whatnews {
+        height: auto;
+    }
+    .imgeachnews {
+        height: 300px;
+    }
+    .linkeachnews {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .listnews, .texteachnews {
+        margin-bottom: 10px;
+    }
+    .listnewshide:nth-child(4n+3) {
+        display: none;
+    }
+    .listnewshide:nth-child(4n+4) {
+        display: none;
+    }
+    .pt-investor {
+        background-size: 100%;
+        background: url(../images/bannerinvestor-m.jpg) no-repeat center center #111;
+        height: 400px;
+    }
+    .blogtopicinvestor {
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        /* IE 9 */
+
+        -webkit-transform: translateX(-50%);
+        /* Chrome, Safari, Opera */
+
+        transform: translateX(-50%);
+        top: 15%;
+    }
+    .topicinvestor {
+        text-align: center;
+    }
+    .btninvestor {
+        float: none;
+        margin: auto;
+        text-align: center;
+        width: 250px;
+    }
+    /*#typeBU {display: none;}*/
+
+    .blogtopicinvestor {
+        width: 100%;
+    }
+    #hnews {
+        padding: 0 15px;
+    }
+    .footmenu {
+        padding: 0;
+        background: #313133;
+    }
+    .footmenu ul {
+        background: #666;
+    }
+    .footmenu ul li {
+        padding: 10px 0;
+    }
+    .footmenu ul li:hover {
+        background: #555;
+    }
+    .topicfooter {
+        border-bottom: 1px solid #111;
+    }
+    footer, #menufooter {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    .imgeachnews {
+        height: 200px;
+    }
+    .imgtypeBU img {
+        width: 90%;
+    }
+    .imgtypeBU {
+        text-align: center;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+    .desctypeBU {
+        width: 100%;
+    }
+    .texttypeBU {
+        width: 100%;
+    }
+    .btntypeBU {
+        padding: 10px 20px;
+    }
+    section#typeBU {
+        height: 680px;
+        padding-bottom: 40px;
+    }
+    .item {
+        height: 600px;
+    }
+    .owl-theme .owl-controls {
+        bottom: -20px;
+    }
+    .owl-theme .owl-controls .owl-page span {
+        width: 8px;
+        height: 8px;
+    }
+    .footmenu {
+        padding: 0;
+        background: #313133;
+    }
+    .footmenu ul {
+        background: #666;
+    }
+    .footmenu ul li {
+        padding: 10px 0;
+    }
+    .footmenu ul li:hover {
+        background: #555;
+    }
+    .topicfooter {
+        border-bottom: 1px solid #111;
+    }
+    footer, #menufooter {
+        padding: 0;
+    }
+}

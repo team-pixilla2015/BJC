@@ -1,0 +1,14 @@
+@mixin line($width:100%) {
+	width: $width;
+	border: 1px solid $active-color;
+}
+
+@mixin line($color: $header-color,$height: 2px){
+	border-bottom: $height solid $color;
+}
+
+%text-header {
+	font-family: "RobotoB";
+	color: $text-header-color;
+	padding-bottom: .7em;
+}

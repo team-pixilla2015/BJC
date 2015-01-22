@@ -1,0 +1,96 @@
+.banner{
+	margin-bottom: 50px;
+}
+.banner img{
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+}
+.supply_head{
+	margin-bottom: 20px;
+}
+.title h1{
+	color: #333333;
+	font-family: 'RobotoB';
+}
+.supply_back p{
+	text-align: right;
+	color: #39b54a;
+}
+.supply_back a{
+	color: #39b54a
+}
+.supply_detail{
+	margin-bottom: 50px;
+}
+.text_detail p{
+	font-size: 14pt;
+	font-family: 'Roboto';
+	line-height: 30px;
+}
+.brands_list_blog{
+	margin-bottom: 30px;
+}	
+.brands_list_head{
+	margin-bottom: 20px;
+}
+.brands_list_head h3{
+ 	color: #333333;
+ 	font-family: 'Roboto';
+}
+.brands_item{
+	width: 33%;
+	float: left;
+	margin-bottom: 15px;
+}
+.brands_item p{
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+.catgory_list_blog{
+	margin-bottom: 30px;
+}
+.catgory_list_head h3{
+	font-size: 'Roboto';
+	color: #309a35;
+	text-decoration: underline;
+
+}
+.catgory_list p{
+	margin: 10px auto 10px auto;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+.company_list_blog{
+	margin-bottom: 30px; 
+	font-size: 'Roboto';
+	color: #309a35;
+	text-decoration: underline;
+}
+.company_list_blog p{
+	margin: 10px auto 10px auto;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+.contac_head{
+	margin-bottom: 20px;
+}
+.contac_head h3{
+	font-family: 'Roboto';
+	color: #666666;
+}
+.contact_address strong{
+	font-size: 14pt;
+}
+.contact_address p{
+	line-height: 30px;
+	font-size: 'Roboto';
+	font-size: 14px;
+	margin: 10px auto 10px auto;
+}
+.address_company strong{
+	font-size: 14pt;
+}
+.address_company p{
+	line-height: 30px; font-size: 12pt;
+}

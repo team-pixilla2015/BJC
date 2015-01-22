@@ -1,0 +1,286 @@
+.head-slide{
+	padding-bottom: 5em;
+	.item {
+		height: auto;
+	}
+	.owl-theme {
+		.owl-controls {
+			text-align: center;
+			margin-top: 10px;
+			position: static;
+			transform: translatex(0);
+			.owl-page.active span {
+				background-color: transparent;
+				border: 2px solid $active-color;
+			}
+		}
+	}
+}
+
+.corp-text {
+	.head-text{
+		h1{
+			text-transform: uppercase;
+			color: $header-color;
+			font-family: "Roboto";
+			padding-bottom: 1em;
+			font-weight: bold;
+		}
+	}
+
+	.sub-text{
+		color: lighten($header-color, 30%);
+		padding-bottom: 2em;
+	}
+
+	.text{
+		line-height: 1.5em;
+		font-size: 1.3em;
+		color: $header-color;
+		padding-bottom: 2em;
+	}
+
+}
+
+.corp-rules {
+	img{
+		position: relative;
+		z-index: -1;
+		left: -100%;
+		padding-bottom: 4em;
+	}
+	.corp-text{
+		.sub-text{
+			color: #fff;
+			padding: 3em 0;
+			h3{
+				font-size: 2.5em;
+			}
+		}
+		.list{
+			padding: 0 1em;
+			ul{
+				border-top: 1px solid #fff;
+				li{
+					padding: .5em 0;
+					border-bottom: 1px solid #fff;
+					list-style: disc;
+					a{
+						color: #fff;
+						line-height: 1.5em;
+						font-size: 1.3em;
+
+					}
+					&:hover {
+						background: rgba(#fff, 0.5);
+					}
+				}
+			}
+		}
+		.list-number{
+			padding: 2em 1em;
+			ul{
+				li{
+					padding: .5em 0;
+					a{
+						color: #fff;
+						line-height: 1.5em;
+						font-size: 1.3em;
+					}
+				}
+			}
+		}
+
+	}
+
+}
+
+.lg{
+	background-color: #fff;
+	padding-bottom: 2em;
+}
+
+.corperate {
+	.text-head {
+		padding: 3em 0 0 0;
+		h1{
+			text-transform: uppercase;
+			color: $header-color;
+			font-family: "Roboto";
+			padding-bottom: 1em;
+			font-weight: bold;
+		}
+	}
+	.sub-text{
+		padding: 1em 0 0 0;
+		color: lighten($header-color, 30%);
+		padding-bottom: 2em;
+	}
+	.group-btn {
+		.row{
+			padding: .8em 0;
+			.corp-btn {
+				img{
+					width: 100%;
+					padding: .2em .5em;
+				}
+			}
+		}
+	}
+}
+
+.committees {
+	.audit {
+		margin-bottom: 2em;
+		padding-bottom: 2em;
+		.row {
+			text-align: center;
+			padding-top: 1em;
+			.text-head{
+				h1{
+					text-transform: uppercase;
+					color: $header-color;
+					font-family: "Roboto";
+					padding: 1em 0 0 0;
+					font-weight: bold;
+					font-size: 2.5em;
+				}
+			}
+		}
+		.text-head{
+			h1{
+				text-transform: uppercase;
+				color: $header-color;
+				font-family: "Roboto";
+				padding: 1em 0 0 0;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.modal-backdrop.in{
+	//opacity: 0;
+}
+
+.modal-header {
+	border: none;
+}
+.modal-body {
+	.bg {
+		background-image: url(../images/corp/dialog-bg.png);
+		background-size: cover;
+	}
+	.col-text {
+		padding-left: 2em;
+	}
+	.text-head {
+		color: lighten($active-color, 10%);
+		padding-bottom: 1em;
+	}
+	.text-sub {
+		color: lighten($active-color, 10%);
+		padding-bottom: 2em;
+	}
+	.text-title {
+		color: lighten($active-color, 10%);
+		padding-bottom: 2em;
+		font-family: "Roboto";
+	}
+	.text {
+		line-height: 1.3em;
+		font-size: 1.3em;
+		color: #000;
+		padding-bottom: 2em;
+	}
+}
+
+.line-corp {
+	border: 1px solid lighten($header-color, 30%);
+}
+
+.rules-bg{
+	background-image: url(../images/corp-lay-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 10em;
+	.sub-text{
+		color: #fff;
+		padding: 3em 0;
+		h3{
+			font-size: 2.5em;
+		}
+	}
+	.list{
+		padding: 0 1em;
+		ul{
+			border-top: 1px solid #fff;
+			li{
+				padding: .5em 0;
+				border-bottom: 1px solid #fff;
+				list-style: disc;
+				a{
+					color: #fff;
+					line-height: 1.5em;
+					font-size: 1.3em;
+				}
+				&:hover {
+					background: rgba(#fff, 0.5);
+				}
+			}
+		}
+	}
+	.list-number{
+		padding: 2em 1em;
+		ul{
+			li{
+				padding: .5em 0;
+				a{
+					color: #fff;
+					line-height: 1.5em;
+					font-size: 1.3em;
+				}
+			}
+		}
+	}
+}
+
+.bod {
+	.committees-bod {
+		overflow: hidden;
+		position: relative;
+		cursor: pointer;
+		margin: auto;
+		width: 200px;
+		display: inline-block;
+		// float:left;
+		#img-commit-bod {
+			position:relative;z-index: 1;
+		}
+		.descbod {
+			position: absolute;
+			bottom:-100%;
+			left:0;
+			z-index: 2;
+			height:100%;
+			width:100%;
+			background:rgba(255,255,255,0.8);
+			padding:20px;
+			transition:all linear 200ms;
+			h3.txt-dbod{
+				padding: 1em 0;
+				color: $text-color;
+				font-size: 1.2em;
+				font-weight: bold;
+			}
+			p.txt-dbod{
+				color: lighten($text-color, 10%);
+				font-style: italic;
+			}
+		}
+		&:hover .descbod {
+			bottom:0%;
+			transition:all linear 200ms;
+		}
+	}
+}

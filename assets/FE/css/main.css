@@ -1,0 +1,1010 @@
+@import url(../css/font.css);
+@import url(../css/style.css);
+@import url(../css/company.css);
+@import url(../css/business.css);
+@import url(../css/business02.css);
+@import url(../css/sbusiness.css);
+@import url(../css/jquery-ui.min.css);
+@import url(../css/jquery-ui.theme.min.css);
+@import url(../css/jquery-ui.structure.min.css);
+@font-face {
+  font-family: "RobotoB";
+  src: url('../fonts/../fonts/Roboto-Bold.ttf?1420526594') format('truetype'), url('../fonts/../fonts/Roboto-Bold.eot?1420526594') format('embedded-opentype');
+}
+@font-face {
+  font-family: "Roboto";
+  src: url('../fonts/../fonts/Roboto-Regular.ttf?1420526598') format('truetype'), url('../fonts/../fonts/Roboto-Regular.eot?1420526597') format('embedded-opentype');
+}
+.head-menu-contact, #berli .berli-header, #packaging .packag-header {
+  font-family: "RobotoB";
+  color: #333333;
+  padding-bottom: .7em;
+}
+
+/* Page */
+#bartop {
+  display: block !important;
+}
+
+.navbar-default {
+  background: #fff;
+  border: none;
+  margin-bottom: 0;
+}
+
+.headmenu {
+  background: #fff;
+}
+
+.navbar-right {
+  margin-right: 0;
+}
+
+.navbar-toggle {
+  top: 1.3em;
+  border: none;
+}
+.navbar-toggle .icon-bar {
+  background: #000 !important;
+}
+
+.nav li .listmenu {
+  color: #264433 !important;
+  font-size: 1.35em;
+  text-transform: uppercase;
+  font-family: "RobotoB";
+  margin: 1em .2em;
+  line-height: 1em;
+  position: relative;
+}
+.nav li .listmenu:hover {
+  color: #38654c !important;
+}
+@media screen and (min-width: 700px) {
+  .nav li .listmenu::before {
+    position: absolute;
+    top: .8em;
+    right: -.2em;
+    width: .1em;
+    height: 1.2em;
+    background: #ccc;
+    content: "";
+    z-index: 100;
+    display: block;
+  }
+}
+.nav li:last-child .listmenu::before {
+  background: none;
+}
+
+.imgtypeBU img {
+  width: 80%;
+}
+
+.timeline {
+  margin-top: 3em;
+  background: #e0e0e0;
+  height: auto;
+}
+.timeline .txt-sub-head {
+  margin: 2.5em 0 1.5em 0;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "RobotoB";
+}
+.timeline .text-detail {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.head-menu-contact {
+  font-size: 4.5em;
+}
+
+.border-line {
+  border-bottom: 2px solid 45%;
+}
+
+.menu-contact {
+  font-size: 1.8em;
+  color: #666666;
+  line-height: 2em;
+  text-shadow: rgba(51, 51, 51, 0.4) 1px 1px 0;
+}
+.menu-contact:hover {
+  color: #27b867;
+}
+
+.menu-contact.active {
+  color: #27b867;
+}
+
+.gmap {
+  width: 720px;
+  height: 520px;
+  background: #000;
+}
+
+#berli {
+  padding-bottom: 8em;
+}
+#berli .berli-bold {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+}
+#berli .berli-text {
+  font-size: 1.5em;
+}
+
+#packaging {
+  display: none;
+  padding-bottom: 5em;
+}
+#packaging .packag-sub-header {
+  padding-bottom: .7em;
+  font-size: 2.5em;
+  color: #3cd680;
+  line-height: 35px;
+}
+#packaging .packag-bold {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+}
+#packaging .packag-text {
+  font-size: 1.5em;
+}
+#packaging .item {
+  padding-bottom: 5em;
+  height: auto;
+}
+#packaging .owl-theme .owl-controls {
+  text-align: center;
+  position: static;
+  transform: translatex(0);
+}
+
+.row.career {
+  background-color: #9a9a9a;
+}
+.row.career .col-xs-12, .row.career .col-sm-12 {
+  padding: 0;
+}
+
+small {
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.uncareer {
+  font-family: "Roboto";
+  background-color: #f2f1f1;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100%;
+}
+
+.btn-group.bootstrap-select button.selectpicker {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ccc;
+}
+.btn-group.bootstrap-select button.selectpicker:hover {
+  background-color: #fff;
+}
+.btn-group.bootstrap-select button.selectpicker:active {
+  background-color: #fff;
+}
+
+.career-menu .menu-mobile {
+  text-align: center;
+}
+.career-menu .menu-mobile .career-head-menu {
+  background-color: #222;
+  border-bottom: 1px solid #000;
+  font-size: 2em;
+  padding: .5em;
+  font-family: "Roboto";
+}
+.career-menu .menu-mobile .career-head-menu a {
+  color: gray;
+  cursor: pointer;
+}
+.career-menu .menu-mobile .career-head-menu a:hover {
+  color: #cccccc;
+}
+.career-menu .menu-mobile .career-sub-menu {
+  display: none;
+}
+.career-menu .menu-mobile .career-sub-menu ul li a {
+  font-family: "Roboto";
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #156438;
+}
+.career-menu .menu-mobile .career-sub-menu ul li a:hover {
+  color: #ffffff;
+}
+.career-menu .menu-mobile .career-sub-menu ul li a.active {
+  color: #ffffff;
+}
+.career-menu .menu-destop .career-sub-menu {
+  padding: 3em;
+}
+.career-menu .menu-destop .career-sub-menu ul li a {
+  font-size: 1.8em;
+  line-height: 2.5em;
+  color: #156438;
+}
+.career-menu .menu-destop .career-sub-menu ul li a:hover {
+  color: #ffffff;
+}
+.career-menu .menu-destop .career-sub-menu ul li a.active {
+  color: #ffffff;
+}
+
+.career-main {
+  padding: 3em 1em;
+  text-align: center;
+  font-family: "Roboto";
+  color: #333333;
+  background-color: #cdcdcd;
+}
+.career-main h1 {
+  padding-bottom: 1em;
+  font-family: "RobotoB";
+}
+
+.new-slide {
+  padding: 0 2em;
+}
+.new-slide .detail {
+  text-align: left;
+  padding-left: 1.5em;
+}
+.new-slide .detail h3 {
+  font-family: "RobotoB";
+}
+.new-slide .detail .text {
+  padding-top: 1.5em;
+  font-size: 1.3em;
+  font-family: "Roboto";
+  line-height: 25px;
+}
+.new-slide .item {
+  height: auto;
+}
+.new-slide .owl-theme .owl-controls {
+  text-align: center;
+  margin-top: 30px;
+  position: static;
+  transform: translatex(0);
+}
+.new-slide .owl-theme .owl-controls .owl-page span {
+  background: #888888;
+  width: 17px;
+  height: 17px;
+  border: 4px solid #cdcdcd;
+}
+.new-slide .owl-theme .owl-controls .owl-page.active span {
+  background-color: #fff;
+  border: 4px solid #35a240;
+}
+
+.why-bjc {
+  background-color: #f2f1f1;
+  text-align: center;
+  font-family: "Roboto";
+}
+.why-bjc h1 {
+  font-family: "RobotoB";
+  color: #333333;
+  padding: 1em 0;
+}
+.why-bjc .text {
+  padding: 0 3em;
+  font-size: 1.6em;
+  line-height: 1.8em;
+}
+.why-bjc .img {
+  padding-bottom: 2em;
+}
+.why-bjc .img img {
+  width: 100%;
+  height: auto;
+}
+.why-bjc .head-text {
+  color: #156438;
+  font-size: 2em;
+  padding-bottom: .5em;
+  font-family: "RobotoB";
+  text-transform: uppercase;
+}
+.why-bjc .sub-text {
+  font-size: 1.6em;
+  line-height: 1.8em;
+  padding: 0 2em 1em 2em;
+}
+.why-bjc .list-text {
+  text-align: left;
+       /*  ul {
+           width: 100%;
+           padding: 0 3em 5em 8em;
+           list-style-type: disc;
+           margin-bottom: 0;
+           li {
+               display: inline-block;
+               width: 40%;
+               text-align: left;
+               font-size: 1.3em;
+               padding: .7em 0;
+               &:before {
+                   margin-right: .5em;
+                   width: 100px;
+                   height: 20px;
+                   background: $left-menu-color;
+               }
+           }
+
+       } */
+}
+.why-bjc .list-text div {
+  background-color: #f2f1f1;
+}
+.why-bjc .list-text div ul {
+  padding: 0 3em 5em e7m;
+  list-style-type: disc;
+}
+.why-bjc .list-text div ul li {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  padding: .7em 0;
+}
+
+.step {
+  overflow: hidden;
+  padding: 3em;
+  background-color: #f2f1f1;
+  /* .head-step.active {
+      background-color: transparent;
+      color: $left-menu-color;
+      border-bottom: 2px solid $bg-color;
+      margin-bottom: 0;
+      padding: .9em .8em 0 .8em;
+      &:after {
+          content: "";
+          border-width: .4em;
+          border-style: solid;
+          border-color: $bg-color transparent transparent transparent;
+          position: relative;
+          left: 49.3%;
+          top: 1.6em;
+      }
+  } */
+  /*  #step-1, #step-2, #step-3, #step-4, #step-5 {
+      display: none;
+  } */
+}
+.step .step-start {
+  background-color: #156438;
+  padding: 2em;
+}
+.step .step-start:after {
+  content: "";
+  border-width: .8em;
+  border-style: solid;
+  border-color: #156438 transparent transparent transparent;
+  position: absolute;
+  left: 49%;
+  top: 6.9em;
+}
+.step .head-step {
+  text-transform: uppercase;
+  background-color: #156438;
+  color: #ffffff;
+  padding: .8em;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: .2em;
+  cursor: pointer;
+}
+.step .head-step:hover {
+  background-color: transparent;
+  color: #156438;
+}
+.step .head-step.active {
+  background-color: transparent;
+  color: #156438;
+}
+.step .body-step {
+  display: none;
+  padding-bottom: 2em;
+}
+.step .body-step .text-head {
+  color: #333333;
+  padding: 1em 0;
+}
+.step .body-step .text-body .radio-inline, .step .body-step .text-body .checkbox-inline {
+  color: #333333;
+  font-size: 1.5em;
+}
+.step .body-step .text-body .add-record {
+  color: #156438;
+  font-size: 1.5em;
+}
+.step .body-step button {
+  background-color: #27b867;
+  border: none;
+  color: #ffffff;
+  padding: .5em 2em;
+  font-size: 1.5em;
+}
+.step .body-step button:hover {
+  background-color: #156438;
+}
+
+.padding-rl {
+  padding: 0 1em;
+}
+
+hr {
+  border: 1px solid #cccccc;
+}
+
+.job-text-head {
+  color: #333333;
+  font-family: "Roboto";
+  text-align: center;
+  padding: 3em 0;
+}
+.job-text-head h1 {
+  font-family: "RobotoB";
+  font-size: 4.5em;
+  text-transform: uppercase;
+}
+.job-text-head .top-line {
+  border: 2px solid #156438;
+  margin: 1em 40%;
+}
+
+.filter-menu {
+  padding: 2em;
+}
+.filter-menu .form-group {
+  margin: 0;
+  padding: 1em 0;
+}
+.filter-menu .input-group-addon {
+  color: #000;
+  background-color: #fff;
+}
+.filter-menu button {
+  background-color: #27b867;
+  border: none;
+  color: #ffffff;
+  padding: .5em 2em;
+  font-size: 1.5em;
+  line-height: 1.33;
+}
+.filter-menu button:hover {
+  background-color: #156438;
+}
+
+.job-sub-text {
+  padding: 2em;
+  color: #156438;
+  text-align: center;
+}
+
+.job-data {
+  padding: 2em;
+  font-size: 1.3em;
+  font-family: "Roboto";
+}
+.job-data .table tbody tr td {
+  color: #666666;
+}
+.job-data .table tbody tr td a {
+  color: #666666;
+}
+.job-data .table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.job-data .table tbody tr:last-child:hover {
+  background: transparent;
+  cursor: default;
+}
+.job-data .table .paginat-item {
+  width: 15px;
+  height: 15px;
+  background: #888;
+  float: left;
+  margin: 0 .5em;
+  border: 4px solid #f2f1f1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.job-data .table .paginat-item:hover {
+  border: 4px solid #156438;
+}
+.job-data .table .paginat-item:last-child:after {
+  clear: both;
+}
+.job-data .table .active {
+  background: #fff;
+  border: 4px solid #22a35b;
+}
+.job-data .table .show_all:hover {
+  text-decoration: underline;
+}
+.job-data .sub h4 {
+  color: #333333;
+  font-family: "Roboto";
+  font-size: 1.3em;
+  border-bottom: 1px solid #333333;
+  padding: .5em;
+}
+.job-data .sub .data-text {
+  padding-top: 1em;
+}
+.job-data .sub .data-text ul {
+  color: #333333;
+  font-weight: 200;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  padding: 1em;
+  list-style: disc;
+}
+.job-data .data-text-sub {
+  color: #333333;
+  text-align: center;
+  padding: 1.5em 0;
+  font-weight: 200;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+.job-data .text-address .address {
+  padding-bottom: 3em;
+}
+.job-data .text-address h4 {
+  padding: 1em 0;
+  color: #156438;
+  font-family: "Roboto";
+}
+.job-data .text-address div {
+  color: #333333;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+.job-data button {
+  background-color: #27b867;
+  border: none;
+  color: #ffffff;
+  padding: .5em 1.5em;
+  font-size: 1.5em;
+}
+.job-data button:hover {
+  background-color: #156438;
+}
+
+.head-slide {
+  padding-bottom: 5em;
+}
+.head-slide .item {
+  height: auto;
+}
+.head-slide .owl-theme .owl-controls {
+  text-align: center;
+  margin-top: 10px;
+  position: static;
+  transform: translatex(0);
+}
+.head-slide .owl-theme .owl-controls .owl-page.active span {
+  background-color: transparent;
+  border: 2px solid #156438;
+}
+
+.corp-text .head-text h1 {
+  text-transform: uppercase;
+  color: #333333;
+  font-family: "Roboto";
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+.corp-text .sub-text {
+  color: gray;
+  padding-bottom: 2em;
+}
+.corp-text .text {
+  line-height: 1.5em;
+  font-size: 1.3em;
+  color: #333333;
+  padding-bottom: 2em;
+}
+
+.corp-rules img {
+  position: relative;
+  z-index: -1;
+  left: -100%;
+  padding-bottom: 4em;
+}
+.corp-rules .corp-text .sub-text {
+  color: #fff;
+  padding: 3em 0;
+}
+.corp-rules .corp-text .sub-text h3 {
+  font-size: 2.5em;
+}
+.corp-rules .corp-text .list {
+  padding: 0 1em;
+}
+.corp-rules .corp-text .list ul {
+  border-top: 1px solid #fff;
+}
+.corp-rules .corp-text .list ul li {
+  padding: .5em 0;
+  border-bottom: 1px solid #fff;
+  list-style: disc;
+}
+.corp-rules .corp-text .list ul li a {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+.corp-rules .corp-text .list ul li:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.corp-rules .corp-text .list-number {
+  padding: 2em 1em;
+}
+.corp-rules .corp-text .list-number ul li {
+  padding: .5em 0;
+}
+.corp-rules .corp-text .list-number ul li a {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+
+.lg {
+  background-color: #fff;
+  padding-bottom: 2em;
+}
+
+.corperate .text-head {
+  padding: 3em 0 0 0;
+}
+.corperate .text-head h1 {
+  text-transform: uppercase;
+  color: #333333;
+  font-family: "Roboto";
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+.corperate .sub-text {
+  padding: 1em 0 0 0;
+  color: gray;
+  padding-bottom: 2em;
+}
+.corperate .group-btn .row {
+  padding: .8em 0;
+}
+.corperate .group-btn .row .corp-btn img {
+  width: 100%;
+  padding: .2em .5em;
+}
+
+.committees .audit {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+.committees .audit .row {
+  text-align: center;
+  padding-top: 1em;
+}
+.committees .audit .row .text-head h1 {
+  text-transform: uppercase;
+  color: #333333;
+  font-family: "Roboto";
+  padding: 1em 0 0 0;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.committees .audit .text-head h1 {
+  text-transform: uppercase;
+  color: #333333;
+  font-family: "Roboto";
+  padding: 1em 0 0 0;
+  font-weight: bold;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-body .bg {
+  background-image: url(../images/corp/dialog-bg.png);
+  background-size: cover;
+}
+.modal-body .col-text {
+  padding-left: 2em;
+}
+.modal-body .text-head {
+  color: #1e8e50;
+  padding-bottom: 1em;
+}
+.modal-body .text-sub {
+  color: #1e8e50;
+  padding-bottom: 2em;
+}
+.modal-body .text-title {
+  color: #1e8e50;
+  padding-bottom: 2em;
+  font-family: "Roboto";
+}
+.modal-body .text {
+  line-height: 1.3em;
+  font-size: 1.3em;
+  color: #000;
+  padding-bottom: 2em;
+}
+
+.line-corp {
+  border: 1px solid gray;
+}
+
+.rules-bg {
+  background-image: url(../images/corp-lay-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10em;
+}
+.rules-bg .sub-text {
+  color: #fff;
+  padding: 3em 0;
+}
+.rules-bg .sub-text h3 {
+  font-size: 2.5em;
+}
+.rules-bg .list {
+  padding: 0 1em;
+}
+.rules-bg .list ul {
+  border-top: 1px solid #fff;
+}
+.rules-bg .list ul li {
+  padding: .5em 0;
+  border-bottom: 1px solid #fff;
+  list-style: disc;
+}
+.rules-bg .list ul li a {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+.rules-bg .list ul li:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.rules-bg .list-number {
+  padding: 2em 1em;
+}
+.rules-bg .list-number ul li {
+  padding: .5em 0;
+}
+.rules-bg .list-number ul li a {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+
+.bod .committees-bod {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  margin: auto;
+  width: 200px;
+  display: inline-block;
+}
+.bod .committees-bod #img-commit-bod {
+  position: relative;
+  z-index: 1;
+}
+.bod .committees-bod .descbod {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  transition: all linear 200ms;
+}
+.bod .committees-bod .descbod h3.txt-dbod {
+  padding: 1em 0;
+  color: #156438;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.bod .committees-bod .descbod p.txt-dbod {
+  color: #1e8e50;
+  font-style: italic;
+}
+.bod .committees-bod:hover .descbod {
+  bottom: 0%;
+  transition: all linear 200ms;
+}
+
+h2 {
+  color: #333333;
+  margin-top: .5em;
+  text-transform: uppercase;
+  font-family: "Roboto";
+}
+
+.sub-menu-row {
+  background-color: #ffffff;
+}
+
+.new-event-sub-menu {
+  padding: 1em 0;
+}
+.new-event-sub-menu .sub-menu {
+  padding: 1em 0 3em 0;
+  text-align: center;
+}
+.new-event-sub-menu .sub-menu ul li {
+  float: left;
+  padding: 0;
+  width: 100%;
+  margin: .5em 0;
+  border-bottom: 1px solid #b3b3b3;
+}
+.new-event-sub-menu .sub-menu ul li a {
+  color: #333333;
+  font-family: "Roboto";
+  font-size: 1.5em;
+}
+.new-event-sub-menu .sub-menu ul li a:hover {
+  color: #1e8e50;
+}
+.new-event-sub-menu .sub-menu ul li a.active {
+  padding-bottom: .1em;
+  color: #22a35b;
+  border-bottom: 4px solid #22a35b;
+}
+@media screen and (min-width: 700px) {
+  .new-event-sub-menu .sub-menu ul li {
+    padding: 0 3.1%;
+    width: auto;
+  }
+}
+
+.contain-row {
+  margin-top: .5em;
+}
+.contain-row .col-xs-12 {
+  margin-top: 1em;
+}
+.contain-row .head .head-text {
+  text-align: left;
+  padding: 0;
+}
+.contain-row .head .head-text h3 {
+  padding-bottom: .5em;
+  font-family: "Roboto";
+  color: gray;
+}
+.contain-row .head .more-text {
+  text-align: right;
+}
+.contain-row .head .more-text a {
+  color: #333333;
+}
+.contain-row .head .more-text a:hover {
+  color: #1e8e50;
+}
+.contain-row .detail {
+  background-color: #ffffff;
+  padding: .7em .5em;
+  font-size: 1.2em;
+}
+.contain-row .detail .head {
+  font-size: 1.4em;
+  color: #333333;
+  line-height: 1.2em;
+}
+.contain-row .detail .small {
+  color: #b3b3b3;
+  font-family: "Roboto";
+  padding: .5em 0;
+}
+.contain-row .detail .text {
+  font-family: "Roboto";
+  color: #333333;
+}
+
+.csr-img {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.csr-text .head {
+  font-size: 1.8em;
+  color: #333333;
+  line-height: 1.2em;
+}
+.csr-text .small {
+  color: #b3b3b3;
+  font-family: "Roboto";
+  padding: .5em 0;
+  font-size: 1.2em;
+}
+.csr-text .text {
+  font-family: "Roboto";
+  color: #333333;
+  font-size: 1.3em;
+  line-height: 1.7em;
+}
+
+.left-slider .up {
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  margin-top: 5em;
+  margin-bottom: 1em;
+  background: url(../images/controls.png) no-repeat -43px -32px;
+  transform: rotate(-90deg);
+}
+.left-slider .up:hover {
+  background-position: -43px 0;
+  transform: rotate(-90deg);
+}
+.left-slider .up a {
+  color: transparent;
+}
+.left-slider .down {
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  margin-top: 1em;
+  background: url(../images/controls.png) no-repeat -43px -32px;
+  transform: rotate(90deg);
+}
+.left-slider .down:hover {
+  background-position: -43px 0;
+  transform: rotate(90deg);
+}
+.left-slider .down a {
+  color: transparent;
+}
+
+.bxslider .detail {
+  background-color: #ffffff;
+  padding: .7em .5em;
+  font-size: 1.2em;
+}
+.bxslider .detail .head {
+  font-size: 1.4em;
+  color: #333333;
+  line-height: 1.2em;
+}
+.bxslider .detail .small {
+  color: #b3b3b3;
+  font-family: "Roboto";
+  padding: .5em 0;
+}
+.bxslider .detail .text {
+  font-family: "Roboto";
+  color: #333333;
+}
+
+/* Css */
+body {
+  font-family: "Roboto" !important;
+}

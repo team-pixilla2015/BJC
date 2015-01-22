@@ -1,0 +1,29 @@
+section {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+    float: left;
+    position: relative;
+    background: url(../images/company/pattern01.jpg) repeat;
+}
+#banner {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    height: 530px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#banner img {
+    height: 500px;
+}
+@media screen and (max-width: 1200px) {} @media screen and (max-width: 1024px) {} @media screen and (max-width: 960px) {} @media screen and (max-width: 640px) {
+    #banner {
+        height:auto;
+    }
+    #banner img {
+        height:auto;
+        width:100%;
+    }
+}
