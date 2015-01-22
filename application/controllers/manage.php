@@ -353,7 +353,7 @@ class Manage extends CI_Controller {
 	}
 
 	public function investor(){
-		echo "investor";
+		echo "Investor Relations";
 	}
 
 	public function news_events(){
