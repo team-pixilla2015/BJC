@@ -63,7 +63,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas neque ac scelerisque dignissim.</p>
     </div>
     <div class="selected_menu row" >
-      <div class="selected_item col-xs-12 col-md-3" data-href="business01.php" >
+      <div class="selected_item col-xs-12 col-md-3" data-href="<?php echo site_url("business"); ?>" >
          <div class="icon">
            <img src="<?php echo base_url(); ?>assets/FE/images/bu-icon01.png">
          </div>
@@ -74,7 +74,7 @@
          <button type="button" class="btn btn-default"><div><span>SELECT</span><span class="icon "></span></div></button>
          <div class="border-bottom"></div>
       </div>
-      <div class="selected_item col-xs-12 col-md-3 " data-href="business02.php">
+      <div class="selected_item col-xs-12 col-md-3 " data-href="<?php echo site_url("business/category"); ?>">
          <div class="icon">
            <img src="<?php echo base_url(); ?>assets/FE/images/bu-icon02.png">
          </div>
@@ -85,7 +85,7 @@
          <button type="button" class="btn btn-default"><div><span>SELECT</span><span class="icon " ></span></div></button>
          <div class="border-bottom"></div>
       </div>
-      <div class="selected_item col-xs-12 col-md-3 " data-href="business03.php">
+      <div class="selected_item col-xs-12 col-md-3 " data-href="<?php echo site_url("business/company"); ?>">
          <div class="icon">
            <img src="<?php echo base_url(); ?>assets/FE/images/bu-icon03.png">
          </div>
@@ -96,7 +96,7 @@
          <button type="button" class="btn btn-default"><div><span>SELECT</span><span class="icon " ></span></div></button>
          <div class="border-bottom"></div>
       </div>
-      <div class="selected_item col-xs-12 col-md-3 active" data-href="business04.php" >
+      <div class="selected_item col-xs-12 col-md-3 active" data-href="<?php echo site_url("business/supply_chain"); ?>" >
          <div class="icon">
            <img src="<?php echo base_url(); ?>assets/FE/images/bu-icon04.png">
          </div>
